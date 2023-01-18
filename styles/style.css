@@ -1,0 +1,224 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* common styles or utilit y */
+body{
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* header styles */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.header-intro{
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-size: 45px;
+    font-weight:bold;
+}
+nav li{
+    list-style: none;
+    padding: 0 15px;
+}
+ul{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.header-title{
+    text-align: center;
+}
+h2{
+    font-size: 64px;
+    font-weight: bolder;
+}
+.header-description{
+    font-size: 16px;
+    margin-bottom: 30px;
+    /* margin-top: 0; */
+}
+.button{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight:bold;
+    width: 150px;
+    height: 54px;
+    border: none;
+    border-radius: 10px;
+}
+.banner-img img{
+    width: 1100px;
+}
+
+/* quick list of features style(section-1)*/
+.content-1 .features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 40px;
+    margin-left:130px;
+}
+.content-1 img{
+    width: 250px;
+    height: 250px;
+}
+.content-1{
+    display: flex;
+    padding: 0 35px;
+}
+.feature-content{
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.feature-content-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.font-1{
+    color: #727272;
+    font-weight:lighter;
+}
+.font-2{
+    color: #FF900E;
+}
+
+/* more features style(section-2)*/
+.section-2{
+    
+    margin-top: 80px;
+    background: #f0f0f0;
+}
+.article{
+    display: flex;
+}
+.content-2{
+    width: 556px;
+    height: 900px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+section img{
+    width: 550px;
+    height: 850px;
+}
+
+.desktop-mobile{
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.content-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+.button-2{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight:bold;
+    width: 200px;
+    height: 110px;
+    border: none;
+    border-radius:5px;
+    margin-left: 680px;
+    margin-top: -120px;
+    position: absolute;
+}
+.experience{
+    font-size: 14px;
+}
+.feature-content2-description{
+    font-size: 14px;
+    color: #727272;
+}
+/* facts style(section-3) */
+.facts{
+    font-size: 45px;
+    color: #131313;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.facts-description{
+    font-size: 14px;
+    color: #727272;
+    margin-left: 100px;
+    margin-top: 18px;
+    /* margin-bottom: 80px; */
+}
+.content3-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 20px;
+}
+.achievement{
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+.number{
+    font-size: 30px;
+    font-weight: 600;
+    color: #424242;
+}
+.achievement-name{
+    font-size: 14px;
+    color: #727272;
+    margin: 0;
+}
+.achievement img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+/* sponsors style(section-4)  */
+.sponsors{
+    font-size: 30px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.sponsors-description{
+    font-size: 14px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content4-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+.sponsors-image img{
+    width: 140px;
+    height: 40px;
+}
+
+/* footer styles */
+.footer{
+    border: 1px solid #FFF4E7;
+    border-radius: 5px;
+    width: 1000px;
+    height: 50px;
+    margin: 60px ;
+    margin-left: 180px;
+    background-color: #FFF4E7;
+    
+}
+.footer-content{
+    font-size: 14px;
+    text-align: center;
+}
